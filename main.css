@@ -1,0 +1,400 @@
+* {
+  box-sizing: border-box;
+ /* background-color: lightgrey;*/
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  text-align: center;
+  background: url('https://wallpaperplay.com/walls/full/b/c/f/319867.jpg');
+  /*('https://wallpaperplay.com/walls/full/d/a/5/319866.jpg');('https://wallpaperplay.com/walls/full/3/8/6/319862.jpg');*/
+}
+
+
+header{
+  width: 100%;
+
+}
+
+
+
+   .topNav {
+     display: flex;
+     justify-content: center;
+     position: fixed;
+     width: 100%;
+     height: 100px;
+     background-color: rgba(0, 0, 0, 0.445);
+     color: white;
+   }
+
+h1{
+  position: absolute;
+  padding: 5px;
+  float: left;
+  margin-left: 2px;
+  margin-top: 20px;
+
+}
+
+
+li{
+  display: inline-block;
+}
+
+header span{
+  text-align: center;
+  font-size: 45px;
+}
+
+
+
+main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  /*background-color: red;*/
+  height: 900px;
+  width: auto;
+  
+
+}
+
+.container{
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+  height: 800px;
+  font-size: 20px;
+
+}
+
+.beginQuiz{
+  width: 70%;
+  margin: auto;
+  height: 300px;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+
+.beginQuiz h2{
+  font-size: 22px;
+  color: white;
+  bottom: 17px;
+  background-color: transparent;
+}
+
+  .beginQuiz #startButton{
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  margin: auto;
+  background-color:hsla(0, 100%, 30%, 0.3);
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  cursor: pointer;
+}
+
+
+.qform{
+  width: 100%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  /*background-color: blue;*/
+  text-align: center;
+  height: 800px;
+  font-size: 30px;
+}
+
+label {
+  min-width: 300px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 25px;
+}
+
+.js-rockAndRoll{
+  /*background-color: aqua;*/
+  height: 700px;
+  padding: 25px;
+  /*margin: auto;*/
+}
+
+
+#question input{
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+
+#question .submit{
+  height: 50px;
+  background-color: green;
+  width: 100%;
+  list-style: none;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+  
+ .js-rockAndRoll input:focus{
+  background-color: darkorange;
+  border: 3px solid orangered;
+}
+
+
+
+.js-rockAndRoll .submit:focus{
+  background-color: darkcyan;
+}
+
+
+.answer{
+  font-size: 20px;  /*ask Manish about this*/
+
+}
+
+.css-feedback{
+  width: 80%;
+ /* display: flex;*/
+  position: relative;
+  flex-direction: column;
+  align-content: flex-end;
+  margin: auto;
+  height:400px;
+  /*background-color:hsla(0, 100%, 70%, 0.3);*/
+  /*background:rgba(255,255,255,0.5);*/
+ /* background-color:	rgb(255,127,80);*/
+  background-image: linear-gradient(red, yellow);
+  text-transform: uppercase;
+}
+
+ 
+
+.logo{
+  position: relative;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  
+}
+
+
+
+.fas{
+  display: block;
+  position: relative;
+  background-color: transparent;
+}
+
+
+
+.fa-sad-tear{
+  position: relative;
+  bottom: 50px;
+  
+}
+
+.correctAnswer{
+
+  /*background-color: aqua;*/
+  position: relative;
+  width: auto;
+  top: 5px;
+  bottom: 70px;
+  font-size: 20px;
+  
+}
+
+.wrong {
+  font-size: 20px;
+  bottom: 2px;
+}
+
+.nextButton{
+  position: relative;
+  font-size: 20px;
+  height: 70px;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.nextButtonv2{
+  position: absolute;
+  font-size: 20px;
+  height: 70px;
+  bottom: 0;
+  width: 100%;
+}
+
+.resultScreen{
+  display: block;
+  height:400px;
+  background-image: linear-gradient(red, yellow);
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+
+}
+
+.resultScreen p{
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.restartButton{
+  position: relative;
+  font-size: 20px;
+  height: 70px;
+  top: 205px;
+  width: 100%;
+}
+
+
+/**************************************************************************/
+
+@media screen and (min-width: 576px){
+
+
+
+
+.correctAnswer{
+
+ font-size: 25px;
+
+}
+
+
+.fa-sad-tear{
+  position: relative;
+  bottom: 30px;
+  
+}
+
+
+}
+/*******************************************************/
+
+@media screen and (min-width: 720px) {
+
+
+.topNav{
+  justify-content:flex-end;
+}
+.beginQuiz{
+  height: 400px;
+  width: 600px;
+}
+
+.beginQuiz h2{
+  font-size: 40px;
+  color: yellow;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.beginQuiz #startButton{
+  width: 400px;
+  height: 75px;
+  margin-top: 50px;
+  background-color:hsla(0, 100%, 30%, 0.3);
+  font-size: 20px;
+}
+
+
+.js-rockAndRoll{
+  /*background-color: aqua;*/
+  
+  height: 700px;
+  padding: 100px;
+  margin: auto;
+}
+
+#question input{
+   display: block;
+   height: 70px;
+   margin: auto;
+   margin-top: 15px;
+  
+
+  /*position relative made input buttons run over the nav bar when scrolling down
+   position: relative; */
+}
+
+#question input:hover{
+ font-size: 120%;
+}
+
+
+.answer{
+  font-size: 25px;
+  width: 100%
+}
+
+
+#question .submit{
+  font-size: 25px;
+  background-color: aqua;
+  
+
+
+}
+
+
+.css-feedback{
+  margin: auto;
+  height: 400px;
+  width: 50%;
+
+ 
+}
+
+
+
+.logo{
+  width: 250px;
+  height: 200px;
+  border: 2px solid white;
+}
+
+
+.feedback{
+  bottom:5px;
+}
+
+
+.resultScreen{
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.resultScreen .restartButton{
+  bottom: 0;
+}
+
+}
+
+

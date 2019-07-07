@@ -1,0 +1,1 @@
+This is the quizz app in its entirety, including all necessary files to run thisapp. Just open via git hub pages or place the url directly into your search bar and press enter. The rest of the functionality is handled by the quiz. Have fun!
